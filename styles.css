@@ -58,13 +58,44 @@ table {
 .formContainer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.message{
+    margin: 16px;
 }
 .inputContainer{
     display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px grey;
+    gap: 8px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+.inputs{
+    display: flex;
+    gap: 16px;
 }
 .column1, .column2{
     display: flex;
     flex-direction: column;
+}
+.submitContainer{
+    margin: 16px;
+}
+input[type=text]{
+    border-color: #E5E7EB;
+
+}
+input[type=email]{
+    border-color: #E5E7EB;
+}
+input[type=tel]{
+    border-color: #E5E7EB;
+}
+input[type=password]{
+    border-color: #E5E7EB;
 }
 input[type=submit]{
     background-color: #596D48;
