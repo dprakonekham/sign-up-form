@@ -56,8 +56,18 @@ table {
     font-size: .5rem;
 }
 .inputContainer{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+input[type=submit]{
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 8px 8px;
+}
+.login > a{
+    color: #596D48;
+    text-decoration: none;
 }
 a{
     color: white;
