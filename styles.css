@@ -55,9 +55,16 @@ table {
     color: white;
     font-size: .5rem;
 }
+.formContainer{
+    display: flex;
+    flex-direction: column;
+}
 .inputContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+}
+.column1, .column2{
+    display: flex;
+    flex-direction: column;
 }
 input[type=submit]{
     background-color: #596D48;
