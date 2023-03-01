@@ -46,9 +46,15 @@ table {
     display: flex;
 }
 .imageContainer{
-    display: flex;
-    flex-direction: column;
+    position: relative;
+}
+.credit{
+    position: absolute;
+    left: 30%;
+    bottom: 1%;
+    color: white;
+    font-size: .5rem;
 }
 img{
-    height: 200px;
+    height: 100vh;
 }
