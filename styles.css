@@ -55,6 +55,13 @@ table {
     color: white;
     font-size: .5rem;
 }
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: white;
+}
 img{
     height: 100vh;
 }
