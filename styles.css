@@ -66,18 +66,22 @@ table {
 .inputContainer{
     display: flex;
     flex-direction: column;
+    font-family: helvetica;
     box-shadow: 1px 1px 1px 1px grey;
     gap: 8px;
     margin-top: 48px;
     padding: 16px;
 }
 legend{
+    font-size: 25px;
     margin-left: 16px;
 }
 .inputs{
     display: flex;
+    font-size: 20px;
     gap: 16px;
     margin: 16px;
+    font-weight: 300;
 }
 .column1, .column2{
     display: flex;
@@ -101,11 +105,18 @@ input[type=password]{
     border-color: #E5E7EB;
 }
 input[type=submit]{
+    font-size: 20px;
     background-color: rgb(15, 40, 19);
     color: white;
     border: none;
-    border-radius: 8px 8px;
+    border-radius: 12px;
     margin-bottom: 8px;
+    padding: 16px;
+    width: 20%;
+    overflow: hidden;
+}
+.login{
+    font-size: 20px;
 }
 .login > a{
     color: #596D48;
@@ -116,4 +127,9 @@ a{
 }
 img{
     height: 100vh;
+}
+p{
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: bold;
 }
