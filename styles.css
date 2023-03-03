@@ -50,10 +50,9 @@ table {
 }
 .credit{
     position: absolute;
-    left: 30%;
     bottom: 1%;
     color: white;
-    font-size: .5rem;
+    font-size: 1rem;
 }
 .formContainer{
     display: flex;
@@ -62,7 +61,7 @@ table {
     width: 100%;
 }
 .message{
-    margin: 16px;
+    margin: 32px;
 }
 .inputContainer{
     display: flex;
@@ -70,23 +69,27 @@ table {
     box-shadow: 1px 1px 1px 1px grey;
     gap: 8px;
     margin-top: 48px;
-    margin-bottom: 16px;
     padding: 16px;
+}
+legend{
+    margin-left: 16px;
 }
 .inputs{
     display: flex;
     gap: 16px;
+    margin: 16px;
 }
 .column1, .column2{
     display: flex;
     flex-direction: column;
+    width: 40%;
 }
 .submitContainer{
-    margin: 16px;
+    margin: 12px;
+    margin-left: 32px;
 }
 input[type=text]{
     border-color: #E5E7EB;
-
 }
 input[type=email]{
     border-color: #E5E7EB;
@@ -98,10 +101,11 @@ input[type=password]{
     border-color: #E5E7EB;
 }
 input[type=submit]{
-    background-color: #596D48;
+    background-color: rgb(15, 40, 19);
     color: white;
     border: none;
     border-radius: 8px 8px;
+    margin-bottom: 8px;
 }
 .login > a{
     color: #596D48;
