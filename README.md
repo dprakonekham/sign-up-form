@@ -1,1 +1,2 @@
 # sign-up-form
+A sample sign-up form using HTML, CSS, and JavaScript. The form takes a first name, last name, email, phone number, and password. All fields must be filled out in order to submit the form. The passwords also must match or else it will display an error that says that the passwords do not match. The password checking is implemented through JavaScript through the onkeyup event which calls the function checkPassword() when the user releases a key in the confirm password text area.
