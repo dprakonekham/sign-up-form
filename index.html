@@ -25,7 +25,7 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
-            <form action="">
+            <form name="signupForm">
                 <div class="inputContainer">
                     <legend>Sign-Up</legend>
                     <div class="inputs">
@@ -48,7 +48,7 @@
                             <input type="tel" id="phone_number" name="phone_number" tabindex="4" required>
     
                             <label for="confirm_password">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm_password" name="confirm_password" maxlength="128" tabindex="6" required>
+                            <input type="password" id="confirm_password" name="confirm_password" maxlength="128" tabindex="6" onkeyup="checkPassword()" required>
                         </div>
                     </div>
                 </div>
