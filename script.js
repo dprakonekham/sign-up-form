@@ -5,8 +5,6 @@ function checkPassword(){
     const passwordInputConfirm = form.elements[`confirm_password`].value;
     const confirmPassword = document.getElementById('confirm_password');
 
-    console.log(passwordInput)
-    console.log(passwordInputConfirm)
     if(passwordInput != passwordInputConfirm){
         //If passwords do not match, scroll and focus the confirm password text area
         confirmPassword.scroll();
